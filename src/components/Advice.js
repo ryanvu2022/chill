@@ -6,7 +6,7 @@ const Advice = () => {
    const [advice, setAdvice] = useState("");
    
    const getAdvice = async () => {
-      await axios.get(process.env.ADVICE_URL)
+      await axios.get(process.env.REACT_APP_ADVICE_URL)
          .then(response => {
             const { advice } = response.data.slip;
             setAdvice(advice);
