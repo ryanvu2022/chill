@@ -1,4 +1,4 @@
-# advice
+# chill
 
 **Live**: https://chill-12.netlify.app/ 
 A web page that generates random advice and cocktail with ingredients.  
